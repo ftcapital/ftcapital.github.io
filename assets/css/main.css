@@ -380,14 +380,11 @@ input, select, textarea {
 		text-align: right;
 	}
 .linkedin-logo {
-	min-width: 21px;
-	min-height: 21px;
-	margin: 10px;
-	width: 30px !important;
-	height: 30px !important;
+	width: 30px;
+	height: 30px;
 	vertical-align: middle;
-	margin-right: 10px;
- }
+	margin-left: 10px;
+}
 }
 /* Row */
 
