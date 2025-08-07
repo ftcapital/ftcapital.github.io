@@ -386,6 +386,39 @@ input, select, textarea {
 	margin-left: 10px;
 }
 }
+
+/* Table Styling */
+.fund-summary-table {
+  /* Set an appropriate width and margin for the table container */
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.fund-summary-table table {
+  /* This allows border-radius to work on the table */
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 2px solid #1c243c; /* A dark color from the scheme */
+  border-radius: 10px;
+  overflow: hidden; /* This hides the overflowing content of cells */
+}
+
+.fund-summary-table th, .fund-summary-table td {
+  padding: 1em;
+  border-bottom: 1px solid #e0e0e0; /* A subtle border between rows */
+  text-align: left;
+}
+
+.fund-summary-table tr:nth-child(even) {
+  background-color: #f4f4f4; /* Light gray for alternate row shading */
+}
+
+/* Remove the last border for a clean look */
+.fund-summary-table tr:last-child td {
+  border-bottom: none;
+}
+}
 /* Row */
 
 	.row {
