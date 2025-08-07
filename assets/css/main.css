@@ -379,7 +379,11 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+.linkedin-logo {
+	min-width: 21px;
+	min-height: 21px;
+	margin: 10px;
+}
 /* Row */
 
 	.row {
