@@ -1,4 +1,3 @@
-date,bloomberg,side,quantity,venue,product_name,product_code
-20241216,ESZ4 INDEX,buy,2,cme,ES 20DEC24,ESZ4
-20241216,MESZ4 INDEX,buy,6,cme,MES 20DEC24,MESZ4
-20241216,MESZ4 INDEX,sell,1,--,MES 20DEC24,MESZ4
+date,bloomberg,quantity,venue,product_name,product_code
+20250806,ESU5 INDEX,0,CME,ES 19SEP25,ESU5
+20250806,AUD,0,,,
