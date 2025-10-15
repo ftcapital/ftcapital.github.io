@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.linkedin-logo {
+  height: 20px; /* Adjust this value as needed */
+  width: auto;  /* Ensures the aspect ratio is maintained */
+  /* OR: Set a fixed width and let the height scale */
+  /* width: 20px; */
+  /* height: auto; */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
