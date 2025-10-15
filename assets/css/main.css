@@ -395,7 +395,7 @@ input, select, textarea {
 	margin-left: 10px;
 }
 */
-}
+
 
 /* Table Styling */
 .fund-summary-table {
@@ -428,7 +428,7 @@ input, select, textarea {
 .fund-summary-table tr:last-child td {
   border-bottom: none;
 }
-}
+
 /* Row */
 
 	.row {
