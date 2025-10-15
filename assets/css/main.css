@@ -387,12 +387,14 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+/*
 .linkedin-logo {
 	width: 30px;
 	height: 30px;
 	vertical-align: middle;
 	margin-left: 10px;
 }
+*/
 }
 
 /* Table Styling */
