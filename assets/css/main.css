@@ -8,11 +8,10 @@
 */
 
 .linkedin-logo {
-  height: 20px; /* Adjust this value as needed */
-  width: auto;  /* Ensures the aspect ratio is maintained */
-  /* OR: Set a fixed width and let the height scale */
-  /* width: 20px; */
-  /* height: auto; */
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 html, body, div, span, applet, object,
