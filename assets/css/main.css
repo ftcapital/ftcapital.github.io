@@ -404,11 +404,11 @@ input, select, textarea {
   padding: 0 1em;
 }
 
-h2.fund-summary-table-heading-major {
-  text-align: center;
-  padding-bottom: 0.5em;
-  border-bottom: solid 2px rgba(100, 200, 239, 1.250);
-  margin-bottom: 1em;
+.wrapper .inner h2.fund-summary-table-heading-major {
+  text-align: center !important;
+  padding-bottom: 0.5em !important;
+  border-bottom: solid 2px rgba(4, 100, 180, 0.95) !important;
+  margin-bottom: 1em !important;
 }
 
 .fund-summary-table table {
