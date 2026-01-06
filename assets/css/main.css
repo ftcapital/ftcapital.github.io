@@ -74,6 +74,11 @@ mark {
 
 /* Basic */
 
+	html {
+		scroll-behavior: smooth;
+		scroll-padding-top: 4.5em;
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -209,6 +214,10 @@ mark {
 	}
 
 	@media screen and (max-width: 736px) {
+
+		html {
+			scroll-padding-top: 3.5em;
+		}
 
 		h2 {
 			font-size: 1em;
