@@ -404,6 +404,11 @@ input, select, textarea {
   padding: 0 1em;
 }
 
+.fund-summary-table-heading-major {
+  text-align: center;
+  border-bottom: solid 2px rgba(100, 200, 239, 1.250);
+}
+
 .fund-summary-table table {
   /* This allows border-radius to work on the table */
   border-collapse: separate;
