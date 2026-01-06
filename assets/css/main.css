@@ -17,6 +17,29 @@
   margin-right: 1em;
 }
 
+/* Responsive Headings and Menu Labels */
+.heading-mobile,
+.menu-mobile {
+  display: none;
+}
+
+.heading-desktop,
+.menu-desktop {
+  display: inline;
+}
+
+@media screen and (max-width: 736px) {
+  .heading-mobile,
+  .menu-mobile {
+    display: inline;
+  }
+
+  .heading-desktop,
+  .menu-desktop {
+    display: none;
+  }
+}
+
 /* Reset */
 
 html, body, div, span, applet, object,
