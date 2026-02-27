@@ -487,6 +487,10 @@ p {
   overflow: hidden;
 }
 
+.chat-panel[hidden] {
+  display: none;
+}
+
 .chat-header {
   padding: 0.9rem 1rem;
   background: linear-gradient(135deg, #0b1f45, #1d3f72);
