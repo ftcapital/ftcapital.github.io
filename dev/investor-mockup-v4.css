@@ -75,17 +75,14 @@ p {
   color: #f5f1e8;
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .brand-logo {
-  width: 52px;
-  height: 52px;
+  width: auto;
+  height: 30px;
+  display: block;
   object-fit: contain;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 4px;
 }
 
 .brand-copy {
@@ -661,8 +658,7 @@ p {
   }
 
   .brand-logo {
-    width: 46px;
-    height: 46px;
+    height: 26px;
   }
 
   .hero .container {
@@ -714,8 +710,6 @@ p {
   }
 
   .brand-logo {
-    width: 42px;
-    height: 42px;
-    border-radius: 8px;
+    height: 24px;
   }
 }
