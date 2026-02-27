@@ -83,6 +83,10 @@ p {
   height: 30px;
   display: block;
   object-fit: contain;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  padding: 3px 6px;
 }
 
 .brand-copy {
