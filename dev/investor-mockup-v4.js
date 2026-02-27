@@ -174,12 +174,16 @@
 
   function openChat() {
     panel.hidden = false;
+    panel.style.display = "flex";
+    panel.setAttribute("aria-hidden", "false");
     toggle.setAttribute("aria-expanded", "true");
     input.focus();
   }
 
   function closeChat() {
     panel.hidden = true;
+    panel.style.display = "none";
+    panel.setAttribute("aria-hidden", "true");
     toggle.setAttribute("aria-expanded", "false");
   }
 
@@ -192,8 +196,23 @@
   });
 
   if (close) {
-    close.addEventListener("click", closeChat);
+    close.addEventListener("click", function (event) {
+      event.preventDefault();
+      closeChat();
+    });
   }
+
+  panel.addEventListener("click", function (event) {
+    if (event.target === panel) {
+      closeChat();
+    }
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !panel.hidden) {
+      closeChat();
+    }
+  });
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -229,4 +248,6 @@
     "Welcome to FT Capital Chatkit. Ask me about fees, documents, benchmark, inception date, or custodian.",
     false
   );
+
+  closeChat();
 })();
