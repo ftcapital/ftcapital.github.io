@@ -73,6 +73,22 @@ p {
 .brand {
   text-decoration: none;
   color: #f5f1e8;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 4px;
+}
+
+.brand-copy {
   display: flex;
   flex-direction: column;
 }
@@ -644,6 +660,11 @@ p {
     padding-bottom: 0.35rem;
   }
 
+  .brand-logo {
+    width: 46px;
+    height: 46px;
+  }
+
   .hero .container {
     text-align: left;
     padding: 5.2rem 0 4.4rem;
@@ -690,5 +711,11 @@ p {
 
   .fund-table {
     min-width: 520px;
+  }
+
+  .brand-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
   }
 }
