@@ -13,6 +13,7 @@
 
   var pdsUrl =
     "https://edge.sitecorecloud.io/eqtservicesd49b-equity3a10-prod1271-d16d/media/equitytrustees/files/instofunds/future-trading-capital-pty-limited/ft-capital-multi-class-investment-fund-us-large-cap-enhanced-complex-class-pds.pdf";
+  var tmdUrl = "https://swift.zeidlerlegalservices.com/tmds/ETL9337AU";
 
   var intents = [
     {
@@ -26,7 +27,9 @@
     {
       keywords: ["tmd", "target market", "determination"],
       answer:
-        'The Target Market Determination is here: <a href="https://swift.zeidlerlegalservices.com/tmds/ETL9337AU" target="_blank" rel="noopener">Open TMD</a>.',
+        'The Target Market Determination is here: <a href="' +
+        tmdUrl +
+        '" target="_blank" rel="noopener">Open TMD</a>.',
       html: true,
     },
     {
