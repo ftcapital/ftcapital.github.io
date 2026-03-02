@@ -49,8 +49,7 @@
     },
     {
       keywords: ["performance fee", "incentive fee", "carry", "over benchmark", "quarter"],
-      answer:
-        "The performance fee is 25%, and it only applies to earnings above the Benchmark for the quarter.",
+      answer: "The performance fee is 25%.",
       html: false,
     },
     {
