@@ -78,7 +78,7 @@ p {
 
 .brand-logo {
   width: auto;
-  height: 56px;
+  height: 60px;
   display: block;
   object-fit: contain;
   background: #ffffff;
@@ -653,7 +653,7 @@ p {
   }
 
   .brand-logo {
-    height: 48px;
+    height: 52px;
   }
 
   .hero-inner {
@@ -685,7 +685,7 @@ p {
   }
 
   .brand-logo {
-    height: 44px;
+    height: 48px;
   }
 
   .btn {
@@ -706,5 +706,9 @@ p {
 
   .fund-table {
     min-width: 520px;
+  }
+
+  .fund-table th {
+    width: 36%;
   }
 }

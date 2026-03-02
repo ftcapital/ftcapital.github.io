@@ -43,13 +43,13 @@
       html: false,
     },
     {
-      keywords: ["management fee", "management cost", "fee"],
+      keywords: ["management fee", "management cost"],
       answer: "The management fee is 0.75% p.a.",
       html: false,
     },
     {
       keywords: ["performance fee", "incentive fee", "carry", "over benchmark", "quarter"],
-      answer: "The performance fee is 25%.",
+      answer: "The performance fee is 25% of gains over the benchmark for the quarter.",
       html: false,
     },
     {
@@ -109,8 +109,10 @@
   function scoreIntent(query, intent) {
     var score = 0;
     for (var i = 0; i < intent.keywords.length; i += 1) {
-      if (query.indexOf(intent.keywords[i]) !== -1) {
-        score += 1;
+      var keyword = intent.keywords[i];
+      if (query.indexOf(keyword) !== -1) {
+        // Favor specific multi-word matches (e.g., "performance fee") over generic terms.
+        score += Math.max(1, keyword.split(" ").length);
       }
     }
     return score;
