@@ -164,13 +164,13 @@ p {
   z-index: 1;
   text-align: center;
   color: #f2f6ff;
-  padding: 6rem 0 5rem;
+  padding: 4.2rem 0 5rem;
 }
 
 .hero-comparison-image {
   width: min(980px, 95vw);
   display: block;
-  margin: 0 auto;
+  margin: -0.3rem auto 0;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.46);
   box-shadow: var(--shadow-hero);
@@ -647,7 +647,7 @@ p {
 
   .hero-inner {
     text-align: left;
-    padding: 4.3rem 0 4.2rem;
+    padding: 2.8rem 0 4.2rem;
   }
 
   .hero-comparison-image {
