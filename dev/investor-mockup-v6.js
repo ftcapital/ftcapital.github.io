@@ -49,13 +49,20 @@
     },
     {
       keywords: ["performance fee", "incentive fee", "carry", "over benchmark", "quarter"],
-      answer: "The performance fee is 25% of gains over the benchmark for the quarter.",
+      answer:
+        "The performance fee is 25% p.a. of outperformance over the benchmark, calculated daily and payable semi-annually (30 June and 31 December), subject to a High Water Mark.",
+      html: false,
+    },
+    {
+      keywords: ["high water mark", "hwm"],
+      answer:
+        "A High Water Mark applies to the performance fee. Outperformance alone does not trigger fees unless the High Water Mark is also exceeded.",
       html: false,
     },
     {
       keywords: ["benchmark", "index", "s&p"],
       answer:
-        "The benchmark is E-mini S&P 500 Stock Price Index Futures Lead Month Contract (March 2026).",
+        "The benchmark is the E-mini S&P 500 Stock Price Index Futures Lead Month Contract.",
       html: false,
     },
     {
@@ -72,7 +79,7 @@
     },
     {
       keywords: ["risk", "volatility", "drawdown"],
-      answer: "The risk level is High.",
+      answer: "The standard risk measure is Medium to High.",
       html: false,
     },
     {
