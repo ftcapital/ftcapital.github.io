@@ -177,6 +177,15 @@ p {
   background: #ffffff;
 }
 
+.chart-disclaimer {
+  margin: 0.8rem auto 0;
+  width: min(980px, 95vw);
+  font-size: 0.76rem;
+  line-height: 1.35;
+  text-align: left;
+  color: rgba(242, 246, 255, 0.88);
+}
+
 .hero-actions {
   margin-top: 2rem;
   display: flex;
@@ -656,6 +665,12 @@ p {
     width: min(880px, 100%);
   }
 
+  .chart-disclaimer {
+    width: min(880px, 100%);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .hero-actions {
     justify-content: flex-start;
   }
@@ -685,6 +700,10 @@ p {
 
   .btn {
     width: 100%;
+  }
+
+  .chart-disclaimer {
+    font-size: 0.7rem;
   }
 
   .chat-toggle {
