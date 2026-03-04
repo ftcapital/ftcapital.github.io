@@ -79,7 +79,7 @@
     },
     {
       keywords: ["risk", "volatility", "drawdown"],
-      answer: "The standard risk measure is Medium to High.",
+      answer: "The risk level is High.",
       html: false,
     },
     {
