@@ -265,7 +265,7 @@
 
   addMessage(
     "bot",
-    "Welcome to FT Capital Chatkit. Ask me about performance fee rules, benchmark, documents, and critical terms.",
+    "Welcome to FT Capital Chatkit. Ask me about performance fee rules, benchmark, documents, and key information.",
     false
   );
 
