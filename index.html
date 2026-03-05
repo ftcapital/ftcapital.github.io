@@ -1,149 +1,213 @@
-<!DOCTYPE HTML>
-<!--
-Solid State by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Future Trading Capital</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<!-- Font Awesome for file icons -->
-<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
-<link rel="stylesheet" href="assets/css/main.css" />
-<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FT Capital | Investor Mockup v7 + Chatkit</title>
+  <meta
+    name="description"
+    content="FT Capital mockup v7 with KPI-first layout and integrated chatkit."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./index.css?v=1" />
 </head>
-<body class="is-preload">
-  <!-- Page Wrapper -->
-  <div id="page-wrapper">
-
-    <!-- Header -->
-    <header id="header">
-      <h1><a href="index.html">Future Trading Capital</a></h1>
-      <nav>
-        <a href="#menu">Menu</a>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="FT Capital homepage">
+        <img class="brand-logo" src="./images/ftc_logo.png" alt="FT Capital logo" />
+        <span class="brand-copy">
+          <span class="brand-sub">Institutional Active Investment Management</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#fund">Key Information</a>
+        <a href="#strategy">Strategy</a>
+        <a href="#documents">Documents</a>
+        <a href="#contact">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <!-- Menu -->
-    <nav id="menu">
-      <div class="inner">
-        <h2>Menu</h2>
-        <ul class="links">
-          <li><a href="#mis"><span class="menu-desktop">Fund Details</span><span class="menu-mobile">Strategies</span></a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#contact">contact us</a></li>
-        </ul>
-        <a href="#" class="close">Close</a>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#fund">Review Key Information</a>
+          <a class="btn btn-secondary" href="#documents">Open Documents</a>
+        </div>
       </div>
-    </nav>
-
-    <!-- Wrapper -->
-    <section id="wrapper">
-
-      <!-- MIS -->
-      <section id="mis" class="wrapper">
-        <div class="inner">
-          <h2 class="fund-summary-table-heading-major">
-            <span class="heading-desktop">Investment Fund Overview</span>
-            <span class="heading-mobile">Enhanced Growth Strategies</span>
-          </h2>
-
-          <div class="fund-summary-table">
-            <table>
-              <tbody>
-                <tr><td>Fund Name</td><td>FT Capital Multi Class Investment Fund</td></tr>
-                <tr><td>Class Name</td><td>US Large Cap Enhanced Complex</td></tr>
-                <!-- <tr><td>Ticker</td><td>FTUS</td></tr> -->
-                <!-- <tr><td>Performance (1-month)</td><td>tba</td></tr> -->
-                <!-- <tr><td>Performance (3-month)</td><td>tba</td></tr> -->
-                <!-- <tr><td>Performance (Inception)</td><td>tba</td></tr> -->
-                <!-- <tr><td>iNAV</td><td>tba</td></tr> -->
-                <tr><td>Investment Objective</td><td> The objective is to seek investment results that outperform the Benchmark, after management fees and costs and performance fee</td></tr>
-                <tr><td>Investment Strategy</td><td>The Investment Manager implements an active investment strategy using futures and exchange traded options in order to outperform the Benchmark.</td></tr>
-                <tr><td>Benchmark</td><td>E-mini S&amp;P 500 Stock Price Index Futures Lead Month Contract (March 2026)</td></tr>
-                <tr><td>NAV</td><td>TBA</td></tr>
-                <!-- <tr><td>Factsheet</td><td><a href="https://ftcapital.github.io/mis/ftus/EQT_FTC_FTUS_FACT_PLACEHOLDER.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i></a></td></tr> -->
-                <tr><td>PDS</td><td><a href="https://edge.sitecorecloud.io/eqtservicesd49b-equity3a10-prod1271-d16d/media/equitytrustees/files/instofunds/future-trading-capital-pty-limited/ft-capital-multi-class-investment-fund-us-large-cap-enhanced-complex-class-pds.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i></a></td></tr>
-                <!-- <tr><td>Product Disclosure Statement (PDS)</td><td><a href="https://edge.sitecorecloud.io/eqtservicesd49b-equity3a10-prod1271-d16d/media/equitytrustees/files/instofunds/future-trading-capital-pty-limited/ft-capital-multi-class-investment-fund-us-large-cap-enhanced-complex-class-pds.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i></a></td></tr> -->
-                <tr><td>Target Market Determination (TMD)</td><td><a href="https://swift.zeidlerlegalservices.com/tmds/ETL9337AU" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i></a></td></tr>
-                <tr><td>High Water Mark (HWM)</td><td>TBA</td></tr>
-                <tr><td>High Water Mark reset</td><td>Quarterly (March 16 2026)</td></tr>
-                <tr><td>Derivatives</td><td>Yes – exchange traded futures and options</td></tr>
-                <tr><td>Asset Allocation Ranges</td><td>Futures: 0–100%, Options: 0–100%, Cash: 50–100%</td></tr>
-                <tr><td>Risk Level</td><td>High</td></tr>
-                <tr><td>Recommended Investment Timeframe</td><td>5 years</td></tr>
-                <tr><td>Performance Fee</td><td>25%</td></tr>
-                <tr><td>Management Fee</td><td>0.75% p.a.</td></tr>
-                <tr><td>Net Assets</td><td>TBA</td></tr>
-                <tr><td>Units Outstanding</td><td>TBA</td></tr>
-                <!-- <tr><td>Material Portfolio Information file (mpi)</td><td><a href="https://ftcapital.github.io/mis/ftus/ftc_ftus_mpi_latest.csv" target="_blank" rel="noopener"><i class="fas fa-file-csv"></i></a></td></tr> -->
-                <!-- <tr><td>Quarterly Portfolio Disclosure</td><td>tbc</td></tr> -->
-                <tr><td>Inception Date</td><td>February 23 2026</td></tr>
-                <tr><td>ARSN</td><td>652 933 616</td></tr>
-                <tr><td>APIR Code</td><td>ETL9337AU</td></tr>
-                <tr><td>Responsible Entity</td><td>Equity Trustees Limited (ABN 46 004 031 298, AFSL 240975)</td></tr>
-                <tr><td>Fund Manager</td><td>Future Trading Capital Pty Limited (ABN 43 658 713 430)</td></tr>
-                <tr><td>Administrator</td><td>Apex Fund Services Pty Ltd</td></tr>
-                <tr><td>Custodian</td><td>Apex Fund Services Pty Ltd</td></tr>
-                <!-- <tr><td>Liquidity</td><td>Nine Mile</td></tr> -->
-                <!-- <tr><td>Distribution Frequency</td><td>Annual</td></tr> -->
-                <!-- <tr><td>DRP Available</td><td>Yes</td></tr> -->
-                <!-- <tr><td>Listing Exchange</td><td>ASX</td></tr> -->
-                <!-- <tr><td>Listing Date</td><td>tbc - subject to listing exchange approval</td></tr> -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <!-- About -->
-      <section id="about" class="wrapper">
-        <div class="inner">
-          <h2 class="major">About Us</h2>
-          <p>
-            George Moskos - Chief Investment Officer
-            <a href="https://www.linkedin.com/in/george-moskos-213158138/" target="_blank" rel="noopener"><img src="images/InBug-Black.png" alt="LinkedIn Logo" class="linkedin-logo"></a>
-          </p>
-           <p>
-            Anthony Polias - Portfolio Manager
-            <a href="https://www.linkedin.com/in/anthony-polias-a08271144/" target="_blank" rel="noopener"><img src="images/InBug-Black.png" alt="LinkedIn Logo" class="linkedin-logo"></a>
-          </p>
-                 <p>
-            Kerry Moskos - Chief Technology Officer
-            <a href="https://www.linkedin.com/in/kerry-moskos-4a9157138/" target="_blank" rel="noopener"><img src="images/InBug-Black.png" alt="LinkedIn Logo" class="linkedin-logo"></a>
-          </p>
-                      <p>
-            Michael Board - Chief Risk Officer
-            <a href="https://www.linkedin.com/in/michael-b-8a676754/" target="_blank" rel="noopener"><img src="images/InBug-Black.png" alt="LinkedIn Logo" class="linkedin-logo"></a>
-          </p>
-        </div>
-      </section>
-
-    </section><!-- /#wrapper -->
-
-    <!-- Footer / Contact -->
-    <section id="footer">
-      <article id="contact">
-        <div class="inner">
-          <h2 class="major">Get in touch</h2>
-          <ul class="contact">
-            <li class="icon solid fa-phone"><a href="tel:+61280513124">+61 2 8051 3124</a></li>
-            <li class="icon solid fa-envelope"><a href="mailto:ask@ftcapital.com.au">ask@ftcapital.com.au</a></li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Future Trading Capital. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
-        </div>
-      </article>
     </section>
 
-  </div><!-- /#page-wrapper -->
+    <section id="overview" class="section section-light">
+      <div class="container">
+        <div class="kpi-grid">
+          <article class="kpi-card">
+            <p class="kpi-label">Fund Name</p>
+            <p class="kpi-value">FT Capital Multi Class Investment Fund</p>
+          </article>
+          <article class="kpi-card">
+            <p class="kpi-label">Class Name</p>
+            <p class="kpi-value">US Large Cap Enhanced Complex Class</p>
+          </article>
+          <article class="kpi-card">
+            <p class="kpi-label">APIR</p>
+            <p class="kpi-value">ETL9337AU</p>
+          </article>
+          <article class="kpi-card">
+            <p class="kpi-label">Risk Level</p>
+            <p class="kpi-value">High</p>
+          </article>
+        </div>
+        <div class="overview-chart-block">
+          <img class="hero-comparison-image" src="./images/FT_Comparision_20260301.png" alt="FT Capital comparison chart" />
+          <p class="chart-disclaimer">Past performance is no indication of future performance. The value of investments will vary, the level of returns will vary, and future returns will differ from past returns. Returns are not guaranteed and investors may lose some or all of their money. Remember that quoted unit prices will be historical and not necessarily the price you will receive when applying or withdrawing. Chart data may include simulated returns using verified trade data sourced from Interactive Brokers (IBKR) and is for illustrative purposes only.</p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
+    <section id="fund" class="section section-soft-blue">
+      <div class="container fund-layout">
+        <article class="fund-summary">
+          <header class="section-header section-header-left">
+            <p class="section-tag">Fund Snapshot</p>
+            <h2>Key information</h2>
+          </header>
+          <dl class="summary-list">
+            <div>
+              <dt>Investment Strategy</dt>
+              <dd>Active investment strategy using exchange traded futures and options in order to outperform the Benchmark.</dd>
+            </div>
+            <div>
+              <dt>Investment Objective</dt>
+              <dd>Seek investment results that outperform the benchmark after management fees, costs, and performance fee.</dd>
+            </div>
+            <div>
+              <dt>Benchmark</dt>
+              <dd>E-mini S&amp;P 500 Stock Price Index Futures Lead Month Contract</dd>
+            </div>
+            <div>
+              <dt>Asset Allocation Ranges</dt>
+              <dd>Futures: 0-100%, Options: 0-100%, Cash: 50-100%</dd>
+            </div>
+          </dl>
+        </article>
 
+        <article class="fund-table-wrap">
+          <table class="fund-table">
+            <tbody>
+              <tr><th scope="row">Inception Date</th><td>February 23 2026</td></tr>
+              <tr><th scope="row">Management Fee</th><td>0.75% p.a.</td></tr>
+              <tr><th scope="row">Performance Fee</th><td>25% p.a. of outperformance over the benchmark, calculated daily and payable semi-annually (30 June and 31 December), subject to High Water Mark.</td></tr>
+              <tr><th scope="row">High Water Mark</th><td>Applies to performance fee calculation.</td></tr>
+              <tr><th scope="row">Derivatives</th><td>Yes - exchange traded futures and options</td></tr>
+              <tr><th scope="row">Recommended Timeframe</th><td>5 years</td></tr>
+              <tr><th scope="row">ARSN</th><td>652 933 616</td></tr>
+              <tr><th scope="row">Responsible Entity</th><td>Equity Trustees Limited (ABN 46 004 031 298, AFSL 240975)</td></tr>
+              <tr><th scope="row">Fund Manager</th><td>Future Trading Capital Pty Limited (ABN 43 658 713 430)</td></tr>
+              <tr><th scope="row">Administrator</th><td>Apex Fund Services Pty Ltd</td></tr>
+              <tr><th scope="row">Custodian</th><td>Apex Fund Services Pty Ltd</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <section id="strategy" class="section section-light">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Investment Framework</p>
+          <h2>Three strategic pillars</h2>
+        </header>
+        <div class="pillar-grid">
+          <article class="pillar-card">
+            <h3>Direct Market Exposure</h3>
+            <p>Efficient market exposure through exchange-traded E-mini S&amp;P 500 futures and options.</p>
+          </article>
+          <article class="pillar-card">
+            <h3>Structured Futures and Options Strategy</h3>
+            <p>Active strategy using futures and exchange-traded options, seeking to outperform the benchmark after fees.</p>
+          </article>
+          <article class="pillar-card">
+            <h3>Disciplined Risk Controls</h3>
+            <p>Risk management overlays are applied throughout the process; risk cannot be eliminated.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="documents" class="section section-soft-blue">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-tag">Governance and Disclosure</p>
+          <h2>Document center</h2>
+        </header>
+        <div class="doc-grid">
+          <article class="doc-card">
+            <h3>Product Disclosure Statement</h3>
+            <p>Primary legal disclosure document for investors.</p>
+            <a href="https://edge.sitecorecloud.io/eqtservicesd49b-equity3a10-prod1271-d16d/media/equitytrustees/files/instofunds/future-trading-capital-pty-limited/ft-capital-multi-class-investment-fund-us-large-cap-enhanced-complex-class-pds.pdf" target="_blank" rel="noopener">Open PDS</a>
+          </article>
+          <article class="doc-card">
+            <h3>Target Market Determination</h3>
+            <p>Product governance and distribution suitability details.</p>
+            <a href="https://swift.zeidlerlegalservices.com/tmds/ETL9337AU" target="_blank" rel="noopener">Open TMD</a>
+          </article>
+          <article class="doc-card">
+            <h3>Monthly Reporting</h3>
+            <p>Reserved for charting, commentary, and regular reporting outputs.</p>
+            <a href="#" aria-disabled="true">Coming Soon</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Contact:</strong> <a href="tel:+61280513124">+61 2 8051 3124</a> | <a href="mailto:ask@ftcapital.com.au">ask@ftcapital.com.au</a></p>
+    </div>
+  </footer>
+
+  <button id="chatToggle" class="chat-toggle" type="button" aria-controls="chatPanel" aria-expanded="false">
+    Ask FT Capital
+  </button>
+
+  <section id="chatPanel" class="chat-panel" hidden aria-hidden="true">
+    <header class="chat-header">
+      <div>
+        <h2>FT Capital Chatkit</h2>
+        <p>Ask fund and document questions</p>
+      </div>
+      <button id="chatClose" class="chat-close" type="button" aria-label="Close chat">Close</button>
+    </header>
+
+    <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+    <div class="chat-chips" aria-label="Suggested questions">
+      <button type="button" class="chat-chip" data-query="What is the performance fee?">Performance fee</button>
+      <button type="button" class="chat-chip" data-query="What is the management fee?">Management fee</button>
+      <button type="button" class="chat-chip" data-query="What is the inception date?">Inception date</button>
+      <button type="button" class="chat-chip" data-query="Who is the custodian?">Custodian</button>
+      <button type="button" class="chat-chip" data-query="Where is the PDS?">PDS</button>
+      <button type="button" class="chat-chip" data-query="Where is the TMD?">TMD</button>
+    </div>
+
+    <form id="chatForm" class="chat-form">
+      <label class="sr-only" for="chatInput">Ask a question</label>
+      <input id="chatInput" name="chatInput" type="text" placeholder="Ask about fees, benchmark, documents..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+
+    <p class="chat-note">Information only. This is not personal financial advice.</p>
+  </section>
+
+  <script src="./index.js?v=1"></script>
 </body>
 </html>
